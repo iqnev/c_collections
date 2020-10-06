@@ -1,5 +1,5 @@
 # Arraylists
-The  `arraylist.c` file contains an arraylist implementation as a dynamic array which is automatically resized as needed.
+The  `arraylist.c` file contains an arraylist implementation- a dynamic array which is automatically resized as needed.
 
 Usage:
 
