@@ -48,6 +48,10 @@ void list_allocate(arraylist* list, unsigned int size) {
 }
 
 void* list_get(arraylist* list, unsigned int index) {
+	if (index > list->size) {
+		return NULL;
+	}
+
 	return list->data[index];
 }
 
